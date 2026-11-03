@@ -1,0 +1,14 @@
+[project]
+name = "netproxy"
+version = "0.1.0"
+description = "A configurable Python proxy for routing payloads between TLS endpoints."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.poetry]
+packages = [{ include = "netproxy" }]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
